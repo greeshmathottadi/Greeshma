@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+    <style>
+        body{
+            margin:0;
+            font-family:Arial,sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#2c3e50;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#34495e;
+            padding:12px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        .container{
+            width:80%;
+            margin:30px auto;
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        button{
+            background:#3498db;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            cursor:pointer;
+            border-radius:5px;
+        }
+
+        button:hover{
+            background:#2980b9;
+        }
+
+        footer{
+            background:#2c3e50;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hotel Management System</h1>
+    <p>Welcome to Smart Hotel</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Rooms</a>
+    <a href="#">Bookings</a>
+    <a href="#">Customers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Room Booking</h2>
+<p>Book available hotel rooms.</p>
+<button>Book Now</button>
+</div>
+
+<div class="card">
+<h2>Customer Details</h2>
+<p>View and manage guest information.</p>
+<button>View</button>
+</div>
+
+<div class="card">
+<h2>Billing</h2>
+<p>Generate customer bills.</p>
+<button>Generate</button>
+</div>
+
+<div class="card">
+<h2>Available Rooms</h2>
+<p>Check room availability.</p>
+<button>Check</button>
+</div>
+
+<div class="card">
+<h2>Check In</h2>
+<p>Guest check-in process.</p>
+<button>Check In</button>
+</div>
+
+<div class="card">
+<h2>Check Out</h2>
+<p>Guest check-out process.</p>
+<button>Check Out</button>
+</div>
+
+</div>
+
+<footer>
+    © 2026 Hotel Management System
+</footer>
+
+</body>
+</html>
